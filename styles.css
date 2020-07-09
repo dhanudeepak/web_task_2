@@ -1,0 +1,119 @@
+/* Title */
+#title{
+  height: 35rem;
+}
+.slide-img{
+  width: 100%;
+  height: 100%;
+
+}
+li{
+  margin-right: 2rem;
+}
+.navbar{
+  z-index: 1;
+}
+.navbar-custom{
+  padding: 2rem 6rem;
+}
+.navbar-brand{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.fas{
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 0.3rem;
+}
+.carousel-in{
+  opacity: 0.3;
+  height: 100%;
+}
+.my-carousel{
+  position: relative;
+  height: 100%;
+  bottom: 8.2rem;
+  width: 100%;
+  background-color: #000;
+}
+.carousel-control-prev,.carousel-control-next{
+  width: 6rem;
+}
+.title-text{
+  position: relative;
+  bottom: 28rem;
+  text-align: center;
+  color: white;
+
+}
+.title-text h1,span{
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+}
+span{
+  color: orange;
+}
+.title-text p{
+  width: 60%;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.title-btn,.mid-btn{
+  border-radius: 35px;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.title-btn1,.mid-btn{
+  background-color: orange;
+  color: #fff;
+}
+
+
+/* MIDDLE */
+.middle{
+  padding: 5rem 11rem;
+  background-color: #fff;
+  text-align: left;
+}
+.middle hr{
+  border: solid 2px;
+  color: orange;
+  width: 15%;
+  margin-left: 0;
+}
+.mid-img{
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Bottom */
+
+.bottom .container-fluid{
+  padding: 3rem 5rem;
+  background-color: #e0dede;
+  text-align: center;
+}
+.bot-icon{
+  color: orange;
+}
+.card{
+  margin: 2rem 2rem;
+}
+.bottom p{
+  width: 80%;
+  margin: auto;
+}
+.bottom hr{
+  border: solid 2px;
+  color: orange;
+  width: 5%;
+
+}
+
+
+/* Media Queries */
+@media max-width(990px) {
+  
+}
